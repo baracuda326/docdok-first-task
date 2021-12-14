@@ -1,8 +1,9 @@
-package com.docdokapp.docdok.web;
+package com.docdokapp.docdok.web.impl;
 
 import com.docdokapp.docdok.business.UserService;
 import com.docdokapp.docdok.domain.dto.UserModel;
 import com.docdokapp.docdok.domain.dto.UserResponseModel;
+import com.docdokapp.docdok.web.UserController;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
